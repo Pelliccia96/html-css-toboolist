@@ -94,6 +94,10 @@ h2 {
     padding-left: 3rem;
 }
 
+.lastmargin {
+    padding-bottom: 4rem;
+}
+
 .v {
     color: green;
     border: 1px solid green;
