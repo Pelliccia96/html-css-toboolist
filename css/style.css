@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin: 1rem;
+}
+
+.title {
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: top;
+    padding-top: 1rem;
+}
