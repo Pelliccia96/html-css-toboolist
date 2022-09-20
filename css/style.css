@@ -15,7 +15,7 @@ header {
 
 nav {
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     padding-left: 3rem;
     margin-bottom: 2rem;
 }
@@ -39,7 +39,8 @@ h2 {
 .nav-text {
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: 1px solid grey;
 }
 
 .nav-text.blue {
@@ -64,35 +65,50 @@ h2 {
     border: 1px solid white;
 }
 
-.Ed {
+.lightblue {
     background-color: #4596fa;
 }
 
-.Q1 {
+.purple {
     background-color: #ad68e1;
 }
 
-.Re {
+.green {
     background-color: #3bcf8b;
 }
 
-.Mo {
+.orange {
     background-color: #ff9941;
 }
 
-.Web {
+.fuchsia {
     background-color: #f14fb0;
 }
 
-.Sal {
+.lightgreen {
     background-color: #c0e749;
 }
 
-.space {
+.menu {
     margin-bottom: 2rem;
     padding-left: 3rem;
 }
 
+.v {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.x {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 2px;
+}
 .container {
     background-color: white;
     width: 1000px;
