@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -15,6 +16,12 @@ header {
 nav {
     padding: 1rem;
     border-bottom: 1px solid black;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
 }
 
 .logo {
@@ -48,20 +55,62 @@ nav {
     margin-bottom: 1rem;
 }
 
-.button-task {
-    border-radius: 8px;
+.button-task-Ed {
+    border-radius: 10px;
     padding: 4px 6px;
     background-color: #4596fa;
     color: white;
     margin-left: 0.5rem;
 }
 
-.space {
-    margin-bottom: 2rem;
+.button-task-Q1 {
+    border-radius: 10px;
+    padding: 4px 6px;
+    background-color: #ad68e1;
+    color: white;
+    margin-left: 0.5rem;
 }
 
-/* .container {
+.button-task-Re {
+    border-radius: 10px;
+    padding: 4px 6px;
+    background-color: #3bcf8b;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.button-task-Mo {
+    border-radius: 10px;
+    padding: 4px 6px;
+    background-color: #ff9941;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.button-task-Web {
+    border-radius: 10px;
+    padding: 4px 6px;
+    background-color: #f14fb0;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.button-task-Sal {
+    border-radius: 10px;
+    padding: 4px 6px;
+    background-color: #c0e749;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.space {
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.container {
     background-color: white;
-    width: 1200px;
-    height: 1000px;
-} */
+    width: 1000px;
+    margin: auto;
+    margin-top: 3rem;
+}
