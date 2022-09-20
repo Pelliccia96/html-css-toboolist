@@ -43,6 +43,23 @@ nav {
     color: grey;
 }
 
+.main-text {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.button-task {
+    border-radius: 8px;
+    padding: 4px 6px;
+    background-color: #4596fa;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.space {
+    margin-bottom: 2rem;
+}
+
 /* .container {
     background-color: white;
     width: 1200px;
