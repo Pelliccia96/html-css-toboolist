@@ -26,13 +26,14 @@ h2 {
 
 .logo {
     margin: 1rem;
+    vertical-align: middle;
 }
 
 .title {
     display: inline-block;
     font-size: 3rem;
-    vertical-align: top;
-    padding-top: 1rem;
+    vertical-align: middle;
+
 }
 
 .nav-text {
@@ -55,52 +56,36 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.button-task-Ed {
+.button-task {
     border-radius: 10px;
     padding: 4px 6px;
+    color: white;
+    margin-left: 0.5rem;
+    border: 1px solid white;
+}
+
+.Ed {
     background-color: #4596fa;
-    color: white;
-    margin-left: 0.5rem;
 }
 
-.button-task-Q1 {
-    border-radius: 10px;
-    padding: 4px 6px;
+.Q1 {
     background-color: #ad68e1;
-    color: white;
-    margin-left: 0.5rem;
 }
 
-.button-task-Re {
-    border-radius: 10px;
-    padding: 4px 6px;
+.Re {
     background-color: #3bcf8b;
-    color: white;
-    margin-left: 0.5rem;
 }
 
-.button-task-Mo {
-    border-radius: 10px;
-    padding: 4px 6px;
+.Mo {
     background-color: #ff9941;
-    color: white;
-    margin-left: 0.5rem;
 }
 
-.button-task-Web {
-    border-radius: 10px;
-    padding: 4px 6px;
+.Web {
     background-color: #f14fb0;
-    color: white;
-    margin-left: 0.5rem;
 }
 
-.button-task-Sal {
-    border-radius: 10px;
-    padding: 4px 6px;
+.Sal {
     background-color: #c0e749;
-    color: white;
-    margin-left: 0.5rem;
 }
 
 .space {
